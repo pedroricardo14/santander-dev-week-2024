@@ -17,6 +17,8 @@ repositories {
 
 extra["springCloudVersion"] = "2023.0.0"
 
+// https://start.spring.io/#!type=gradle-project-kotlin&language=java&platformVersion=3.2.4&packaging=jar&jvmVersion=21&groupId=me.dio&artifactId=santander-dev-week-2024&name=santander-dev-week-2024&description=API%20Rest%20Sobre%20Champios%20do%20Lol&packageName=me.dio.sdw2024&dependencies=web,data-jdbc,h2,cloud-feign
+
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
 	implementation("org.springframework.boot:spring-boot-starter-web")
